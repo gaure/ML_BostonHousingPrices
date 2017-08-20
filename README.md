@@ -14,4 +14,9 @@ The dataset for this project originates from the UCI Machine Learning Repository
 #    The features 'RM', 'LSTAT', 'PTRATIO', and 'MEDV' are essential. The remaining non-relevant features have been excluded.
 #    The feature 'MEDV' has been multiplicatively scaled to account for 35 years of market inflation.
 
-The above listed dataset characteristics by themself, imply  some important concepts related to the preparation of the data used to train a prediction model. 
+The above listed dataset characteristics by themself, imply  some important concepts related to the preparation of the data used to train a prediction model; These concepts are:
+
+## The eliminations of outliers data points.
+## And the adjustment of the labels to account for market inflation.
+
+The above technics were used to prepare the training data before feeding it to the prediction model, this is a very import technic that I learned during this project. 
