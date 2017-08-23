@@ -33,3 +33,9 @@ The bigger a teacher class is, the less focus on each student he/she will put an
 # Metric
 
 To measure the model’s accuracy, I used the R2 or the coefficient of determination, this metric tells us how much the vector features explain our prediction. The highest good value for R2 is 1.0, and the worst can be negative. A model that predicts correctly not matter what features are input will always give an R2 of 0, this is a clear indication of an overfitted model. The Mathematically operation to calculate R2 is as follow: the square difference between the real label value and the predicted value,’ divided by the square variance of the original label’s distribution minus 1. I am dividing the actual error of my prediction between the spread of the values of the fitted data distribution, in an ideal scenario where the prediction is close to the real value the difference between one and the division is close to 1. R2 metric helps to tune the model parameters so the error gets lower, and the R2 gets higher.
+
+# The FrameWork
+
+During this project I also learned about the Python science kit learning; this is a powerful tool used to create supervised and unsupervised machine learning models. The Sklearn as it is known for short also contains functions to optimize the models once they are built and tools that help to prepare the data before fitting it to the model for training purposes.
+Sklearn is one of the most important Python machine learning frameworks.
+
