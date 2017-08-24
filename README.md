@@ -39,3 +39,8 @@ To measure the model’s accuracy, I used the R2 or the coefficient of determina
 During this project I also learned about the Python science kit learning; this is a powerful tool used to create supervised and unsupervised machine learning models. The Sklearn as it is known for short also contains functions to optimize the models once they are built and tools that help to prepare the data before fitting it to the model for training purposes.
 Sklearn is one of the most important Python machine learning frameworks.
 
+# The Data Shuffle and Split Process
+
+During this project, another fundamental concept I learned was the use of the sklearn "cross validation" function. Usually, the amount of data available to train a model is limited. It is important to measure the model performance using data that the model has not seen before; these two situations create the complication of how much of the data can be used to train the model and how much to test it, based on the premise that the training data set available is not big enough. The use of the cross validation technique helps with this situation. Cross validation not only shuffle the data but also creates two type of folds the training and the test folds; these two folds rotate roles during the process of training/testing, making sure that model overfitting does not occur. 
+
+
