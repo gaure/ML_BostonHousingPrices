@@ -43,4 +43,13 @@ Sklearn is one of the most important Python machine learning frameworks.
 
 During this project, another fundamental concept I learned was the use of the sklearn "cross validation" function. Usually, the amount of data available to train a model is limited. It is important to measure the model performance using data that the model has not seen before; these two situations create the complication of how much of the data can be used to train the model and how much to test it, based on the premise that the training data set available is not big enough. The use of the cross validation technique helps with this situation. Cross validation not only shuffle the data but also creates two type of folds the training and the test folds; these two folds rotate roles during the process of training/testing, making sure that model overfitting does not occur. 
 
+## Analysis the Model Performance
 
+In this part of the project, I learn the process of training a model and measure the model performance.
+I used the Sklearn decision tree model, the cross validation technique and the accuracy metric explained in the previous section to train the model.
+Using the number of training samples and the accuracy of the model, I created what is known as a learning curve. The learning curve has three primary objectives:
+##### 1. - Measure the number of samples after which the model does not improve its accuracy anymore.; in other words, it does not learn anymore.
+##### 2. - Determine if the model is memorizing the data and confusing the data and its noise; this is known as model overfitting, and it makes the model fail to predict new data.
+##### 3.- Determine if the model is not learning anything from the data; this is known as Bias and make the model to have a very low accuracy.
+
+The learning curve helps to identify the model  Bias, Overfitting degree and what is the optimal number of samples needed to train the model
